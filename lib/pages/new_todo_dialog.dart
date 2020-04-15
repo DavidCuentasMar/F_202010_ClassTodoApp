@@ -66,7 +66,6 @@ class _NewTodoDialogState extends State<NewTodoDialog> {
                     icon = Icon(Icons.dialpad);
                     break;
                 }
-
                 final todo = new Todo(
                   title: controllerTitle.value.text,
                   body: controllerBody.value.text,
