@@ -6,7 +6,9 @@ class NewTodoDialog extends StatefulWidget {
   @override
   _NewTodoDialogState createState() => _NewTodoDialogState();
 }
-
+// TEAM: 
+//        WILSON TOVAR
+//        DAVID CUENTAS
 class _NewTodoDialogState extends State<NewTodoDialog> {
   final controllerTitle = new TextEditingController();
   final controllerBody = new TextEditingController();
